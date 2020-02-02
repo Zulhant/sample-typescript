@@ -1,0 +1,47 @@
+.navbar-app {
+  background-color: #20232a !important;
+  margin-bottom: 30px;
+}
+
+.navbar-app a {
+  color: aliceblue !important;
+}
+
+.navbar-app .brand {
+  font-weight: bold;
+}
+
+.navbar-app .mr-auto {
+  margin-left: 5%;
+}
+
+.full-height {
+  height: 100% !important;
+}
+
+.navbar-app span {
+  color: #61dafb;
+}
+
+.app-header {
+  background-color: rgb(255, 255, 255) !important;
+  padding-left: 10px !important;
+}
+
+.avatar-selector {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  width: 30%;
+}
+
+.pin {
+  border: 2px solid red !important;
+  margin-left: 0 !important;
+}
+
+.pin-label {
+  font-weight: bold !important;
+  font-size: 15px !important;
+  margin-left: 20px !important;
+}

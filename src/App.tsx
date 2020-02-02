@@ -1,13 +1,15 @@
-import React from 'react';
-import Home from "./pages/home"
-import './App.css';
+import React from "react";
+import Middeware from "./middlewares";
+import { HashRouter, Switch } from "react-router-dom";
 
 const App: React.FC = () => {
   return (
-    <div className="App">
-      <Home TitlePage="Halaman Home" />
-    </div>
+    <HashRouter>
+      <Switch>
+        <Middeware />
+      </Switch>
+    </HashRouter>
   );
-}
+};
 
-export default App;
+export default React.memo(App);
